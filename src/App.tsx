@@ -61,7 +61,7 @@ export default function App() {
             .addEventListener('change', event => {
                 const colorScheme = event.matches;
                 console.log(colorScheme); // "dark" or "light"
-                setMode(colorScheme);
+                setMode(colorScheme); 
                 // https://dribbble.com/shots/16783244-Ponyweist-Customer-Relationship-Management-Dashboard
                 //https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe
                 //https://colormagic.app/palette/VGP05TypjX4Idjl8GAM0
